@@ -1,17 +1,17 @@
 ﻿bool numberCheck(int num)
 {
-if (num < 100)
-return true;
-else return false;
+    if (num < 100)
+        return true;
+    else return false;
 }
 
-int ThirdDidit (int num)
+int ThirdDidit(int num)
 {
-while (num>999)
+    while (num > 999)
     {
-        num = num/10; 
+        num = num / 10;
     }
-return num%10;
+    return num % 10;
 }
 
 
